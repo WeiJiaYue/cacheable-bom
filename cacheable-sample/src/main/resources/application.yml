@@ -1,0 +1,18 @@
+server:
+  port: 80
+spring:
+  application:
+    name: sample
+  redis:
+    host: 192.168.10.154
+    port: 6379
+
+#Sample
+cacheable:
+  #Cache names ttl config
+  cache-names:
+    hello-world:
+      time-to-live: 60
+      unit: SECONDS
+
+
